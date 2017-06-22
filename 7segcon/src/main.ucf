@@ -1,0 +1,24 @@
+################################################################################
+# UCF file for Nexys4 Artix-7 XC7A100T-1CSG324C                                #
+################################################################################
+
+NET "CLK_IN"   LOC = "E3"  | IOSTANDARD = "LVCMOS33" | PERIOD = 100 MHz;
+NET "RST_X_IN" LOC = "P18" | IOSTANDARD = "LVCMOS33";  # S, High-Active
+
+## 7 segment display
+NET "SEG<0>"   LOC = "T10" | IOSTANDARD = "LVCMOS33";
+NET "SEG<1>"   LOC = "R10" | IOSTANDARD = "LVCMOS33";
+NET "SEG<2>"   LOC = "K16" | IOSTANDARD = "LVCMOS33";
+NET "SEG<3>"   LOC = "K13" | IOSTANDARD = "LVCMOS33";
+NET "SEG<4>"   LOC = "P15" | IOSTANDARD = "LVCMOS33";
+NET "SEG<5>"   LOC = "T11" | IOSTANDARD = "LVCMOS33";
+NET "SEG<6>"   LOC = "L18" | IOSTANDARD = "LVCMOS33";
+
+NET "AN<0>"    LOC = "J17" | IOSTANDARD = "LVCMOS33";
+NET "AN<1>"    LOC = "J18" | IOSTANDARD = "LVCMOS33";
+NET "AN<2>"    LOC = "T9"  | IOSTANDARD = "LVCMOS33";
+NET "AN<3>"    LOC = "J14" | IOSTANDARD = "LVCMOS33";
+NET "AN<4>"    LOC = "P14" | IOSTANDARD = "LVCMOS33";
+NET "AN<5>"    LOC = "T14" | IOSTANDARD = "LVCMOS33";
+NET "AN<6>"    LOC = "K2"  | IOSTANDARD = "LVCMOS33";
+NET "AN<7>"    LOC = "U13" | IOSTANDARD = "LVCMOS33";

@@ -1,0 +1,7 @@
+################################################################################
+# UCF file for Nexys4 Artix-7 XC7A100T-1CSG324C                                #
+################################################################################
+
+NET "CLK_IN"   LOC = "E3"  | IOSTANDARD = "LVCMOS33" | PERIOD = 100 MHz;
+NET "RST_X_IN" LOC = "P18" | IOSTANDARD = "LVCMOS33";  # S, High-Active
+NET "TXD"      LOC = "D4"  | IOSTANDARD = "LVCMOS33";
